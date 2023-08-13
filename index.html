@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Pasos ligeros por Jacqueline Bolaños </title>
+
+<!--LINK DE BOOTSTRAP-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+<!--LINK DE CSS-->
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!--SECCIÓN DE ENCABEZADO (MENÚ)-->
+
+<nav class="navbar navbar-expand-lg header">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="./imag/logo proyecto.png" alt="logo" width="50px">
+
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./horarios.html">Horarios</a>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link" href="./Contactame.html">Contáctame</a>
+        </li>  
+        <li class="nav-item">
+          <a class="nav-link" href="#direccion">Ubicación</a>
+        </li>  
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--SECCIÓN DE BIENVENIDA (TEXTO)-->
+
+<div class="container my-3">
+    <h1 class="h1saludo">¡Hola!</h1>
+    <br>
+    <p > Mi nombre es Jacqueline Bolaños, vivo en la Cd. de Oaxaca, México. Quiero compartite que a lo largo de 
+        mi vida he tenido la posibilidad de practicar y enamorarme de varias disciplinas que me han permitido
+        mantener mi cuerpo activo y mi mente tranquila; o en varias ocasiones transitar la enfermedad. <br> <br>Hoy me hace muy feliz poder enseñar estas prácticas a las personas y 
+        adaptar las técnicas a su situación y deseos. <br><br>Si te interesa brindo clases presenciales.  ¡Te veo pronto!</p>    
+</div>
+
+<div class="container my-3">
+  <a class="btn btn-outline-secondary" role="button" 
+  href="./Contactame.html">Escribeme con confianza para más información</a>
+  <br>
+</div>
+
+<!--SERVICIOS (COLUMNAS)-->
+
+<div class="container my-4">
+    <h1>Estas son las opciones de clases:</h1>
+</div>
+
+<div class="container text-center my-3">
+    <div class="row align-items-start">
+
+      <div class="col">
+        <img class="img-ilust-style" src="./imag/Yoga.jpg" alt="ilust Yoga">
+        <h1>Yoga</h1>
+        <p>Para aprender a estar presente, practicar yoga tú debes; bueno, sólo si tú quieres.<br> Con esta práctica tu cuerpo y mente serán más flexibles y te llenarás de energía para vivir la vida </p>
+      </div>
+
+      <div class="col">
+        <img class="img-ilust-style" src="./imag/Tai-Chi.jpg" alt="ilust Tai-Chi" >
+        <h1>Tai-Chi</h1>
+        <p>Esta disciplina milenaria de China se ha extendido por todo el mundo porque combina un enfoque terapéutico con los movimientos 
+            y filosofía de las artes marciales. Te encantará aprender las secuencias de movimientos y sentirte en cámara lenta donde es posible retomar el control
+            de tu cuerpo. 
+            
+        </p>
+      </div>
+
+      <div class="col">
+        <img class="img-ilust-style" src="./imag/Country.jpg" alt="ilust Country">
+        <h1>Country</h1>
+        <p>Si te gusta bailar en las fiestas Payaso de Rodeo y quieres imitar las coreografías de Tiktok de tus
+            cantantes favoritos, esta clase te gustará, ya que aprendemos muchos pasos que se pueden adaptar al ritmo
+            que más te guste bailar, sea K-pop, country, regional mexicano, danzón, etc.</p>
+      </div>
+
+    </div>
+  </div>
+
+<!--EJEMPLOS (CARRUSEL VIDEOS)-->
+
+<div class="container my-3">
+    
+    <h1>Seguro reconoces estas disciplinas por esto ...</h1>
+    
+    
+</div>
+
+<div id="carouselExampleIndicators" class="carousel slide container ">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+     
+    </div>
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active" >
+        <iframe class="d-block w-100" width="560" height="560" src="https://www.youtube.com/embed/SuKbG1wC_WI" title="Hombres de acción Mulán" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      
+      <div class="carousel-item">
+        <iframe class="d-block w-100" width="560" height="560" src="https://www.youtube.com/embed/-UQ8U6blKmc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!--UBICACIÓN (MAPA)-->
+
+
+<div class="container my-3" id="direccion">
+    
+    <h1>Aquí practicamos</h1>
+    <br>
+    <p>
+      Calle ________ #________ colonia____, Santa Lucia del Camino, CP._______, Oaxaca, México.
+      Whatsapp: 
+    </p>
+    <br>
+
+</div>
+
+<div  class="container text-center my-3">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30513.629027958752!2d-96.71556557523893!3d17.06268949952128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c723b7e6e110f9%3A0x1065e9bd4dafc850!2sSanta%20Luc%C3%ADa%20del%20Camino%2C%20Oax.!5e0!3m2!1ses-419!2smx!4v1690572933817!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+</div>
+
+
+<!--DESPEDIDA (BOTON)-->
+
+<div class="container text-center my-3">
+    
+    <a class="btn btn-outline-secondary my-3" role="button" 
+    href="./Contactame.html">No te vayas sin escribirme tus dudas </a>
+
+</div>
+
+<!--PIE DE PÁGINA -->
+
+<footer style="background-color: rgb(133, 176, 135); " class="my-3">
+    <p>
+        Conoce nuestras políticas de privacidad, 2023
+    </p>
+</footer>
+
+<!--LINK DE JAVA-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+</html>
